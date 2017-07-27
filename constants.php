@@ -14,3 +14,7 @@ if ( ! defined('REGEX_DATETIME_PATTERN')) {
         REGEX_DATE_PATTERN . ' ' . REGEX_TIME_PATTERN // YYYY-MM-DD HH:MM:SS
     );
 }
+
+if ( ! defined('GLOB_BRACE')) {
+    define('GLOB_BRACE', 0);
+}
